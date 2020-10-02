@@ -1,0 +1,8 @@
+In Visual Basic add module:
+
+Sub Auto_Open()
+    Set oShell = CreateObject("WScript.Shell")
+    oShell.Exec ("Notepad.exe")
+End Sub
+
+Save as Excel Add-in
